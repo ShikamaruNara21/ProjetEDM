@@ -1,0 +1,96 @@
+.banner-box h1, .about-section h2, .contact-section p, .banner-box .block-editor-rich-text__editable.wp-block-button__link{
+  font-family: 'Oswald', sans-serif !important;
+}
+.banner-box p, .about-section p{ 
+  font-family: 'Ropa Sans', sans-serif !important;
+}
+/*Banner section*/
+.banner-box .wp-block-column.is-vertically-aligned-center {
+  position: relative;
+  left: 10%;
+}
+.banner-box .block-editor-rich-text__editable.wp-block-button__link{
+	padding: 10px 15px 0px 0px;
+	color: #fff !important;
+	font-size: 15px;
+	background-color: transparent !important;
+	border: solid 2px #c4b12d !important;
+}
+.banner-box .block-editor-rich-text__editable.wp-block-button__link:before {
+  content: "\f02e";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #fff;
+  margin-right: 15px;
+  font-size: 18px;
+  background: #c4b12d;
+  padding: 17px;
+}
+.banner-box .block-editor-rich-text__editable.wp-block-button__link:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #c4b12d;
+    margin: auto 0;
+    position: relative;
+    top: -20px;
+    left: 43px;
+    transform: rotate(45deg);
+    transition: all 0.3s linear 0s;
+}
+/*Contact section*/
+.wp-block-group.contact-section.block-editor-block-list__block{
+	padding: 10px 0;
+}
+.contact-section p.con-phone:before, .contact-section p.con-email:before {
+  content: "\f095";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 18px;
+  background: #5f5406;
+  padding: 15px;
+}
+.contact-section p.con-phone:after, .contact-section p.con-email:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #5f5406;
+    margin: auto 0;
+    position: relative;
+    top: -20px;
+    left: 42px;
+    transform: rotate(45deg);
+    transition: all 0.3s linear 0s;
+}
+.contact-section p.con-email:before {
+  content: "\f2b6";
+}
+.contact-section ul.wp-block-social-links.alignright.is-style-logos-only {
+    display: flex;
+}
+.contact-section li.wp-social-link, .contact-section li.wp-social-link:hover{
+	width: auto !important;
+	height: auto !important;
+}
+.contact-section .wp-block-social-links .wp-social-link button{
+	color: #fff !important;
+}
+.contact-section li.wp-social-link:hover{
+	background: #5f5406 !important;
+	transform: none !important;
+	border-radius: 0px !important;
+}
+/*About section*/
+.about-section h2:before{
+  content: "\f018";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #fff;
+  margin-right: 15px;
+  font-size: 50px;
+  color: #040404;
+}

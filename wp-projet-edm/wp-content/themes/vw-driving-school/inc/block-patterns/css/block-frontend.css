@@ -1,0 +1,129 @@
+.banner-box, .about-section{
+  width: auto;
+  height: auto;
+}
+figure.aligncenter.size-large, ul.wp-block-social-links.alignright.is-style-logos-only{
+	border: none !important;
+}
+/*Banner section*/
+.banner-box .wp-block-column.is-vertically-aligned-center {
+  position: relative;
+  left: 11%;
+}
+.banner-box a.wp-block-button__link{
+	padding: 10px 15px 0px 0px;
+	color: #fff !important;
+	font-size: 15px;
+}
+.banner-box a.wp-block-button__link:before {
+  content: "\f02e";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #fff;
+  margin-right: 15px;
+  font-size: 18px;
+  background: #c4b12d;
+  padding: 15px;
+}
+.banner-box a.wp-block-button__link:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #c4b12d;
+    margin: auto 0;
+    position: relative;
+    top: -16px;
+    left: 40px;
+    transform: rotate(45deg);
+    transition: all 0.3s linear 0s;
+}
+/*Contact section*/
+.contact-section p.con-phone:before, .contact-section p.con-email:before {
+  content: "\f095";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #fff;
+  margin-right: 20px;
+  font-size: 18px;
+  background: #5f5406;
+  padding: 15px;
+}
+.contact-section p.con-phone:after, .contact-section p.con-email:after {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #5f5406;
+    margin: auto 0;
+    position: relative;
+    top: -16px;
+    left: 44px;
+    transform: rotate(45deg);
+    transition: all 0.3s linear 0s;
+}
+.contact-section p.con-email:before {
+  content: "\f2b6";
+}
+.contact-section p{
+    font-family: 'Oswald', sans-serif;
+}
+.contact-section ul.wp-block-social-links.alignright.is-style-logos-only {
+    display: flex;
+}
+.contact-section li.wp-social-link, .contact-section li.wp-social-link:hover{
+	width: auto !important;
+	height: auto !important;
+}
+.contact-section .wp-social-link a{
+	color: #fff !important;
+}
+.contact-section li.wp-social-link:hover{
+	background: #5f5406 !important;
+	transform: none !important;
+	border-radius: 0px !important;
+}
+/*About section*/
+.about-section h2:before{
+  content: "\f018";
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  color: #fff;
+  margin-right: 15px;
+  font-size: 50px;
+  color: #040404;
+}
+.about-section p{
+	line-height: 2 !important;
+}
+@media screen and (max-width:767px) {
+  .banner-box .wp-block-columns.alignwide {
+    margin: 0;
+  }
+  .banner-box .wp-block-column.is-vertically-aligned-center{
+    position: static;
+  }
+  .banner-box h1{
+    font-size: 30px !important;
+  }
+  .contact-section li.wp-social-link{
+  	padding: 0 !important;
+  }
+  .contact-section p{
+  	font-size: 14px;
+  }
+  .contact-section .alignright{
+  	float: left !important;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+	.contact-section .wp-block-columns.alignwide{
+		flex-wrap: nowrap !important;
+	}
+	.contact-section p{
+		font-size: 12px;
+	}
+	.contact-section li.wp-social-link{
+		width: 30px !important;
+	}
+}
